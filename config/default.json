@@ -1,0 +1,4 @@
+{
+  "mongoURI": "mongodb://10.0.1.132:27017/mern-test-db",
+  "jwtSecret": "pl_mySecretJwtToken"
+}

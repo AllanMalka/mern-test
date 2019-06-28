@@ -1,0 +1,36 @@
+body{
+    background-color: #454d55;
+}
+.btnRemove {
+    margin-right: 0.5rem;
+}
+
+.fade-enter {
+    opacity: 0;
+}
+.fade-enter-active {
+    opacity: 1;
+    transition: opacity 1000ms ease-in;
+}
+.fade-exit {
+    opacity: 1;
+}
+.fade-exit-active {
+    opacity: 0;
+    transition: opacity 1000ms ease-in;
+}
+
+p {
+    display: inline;
+}
+.table-hover tbody tr:hover td, .table-hover tbody tr:hover th, .btn-dark:hover {
+    background-color: darkred;
+    color:black;
+}
+.popupModalBg {
+    padding:0;
+}
+
+.happyPopupModal{
+    width:130%;
+}
